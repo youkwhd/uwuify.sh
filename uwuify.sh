@@ -2,7 +2,7 @@
 
 SCRIPT_NAME=$(basename $0)
 
-function help() {
+help() {
     echo "usage: $SCRIPT_NAME <text>"
 }
 
