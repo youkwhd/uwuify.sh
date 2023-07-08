@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd "$(dirname $0)"
-source "./assert.sh"
+source "./lib/assert.sh"
 
 counter=0
 
