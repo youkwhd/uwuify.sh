@@ -8,5 +8,5 @@ Examples
 --------
 
 ::
-    $ uwuify "hello please"
+    $ uwuify.sh "hello please"
     hewwo pwease
