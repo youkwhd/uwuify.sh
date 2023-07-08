@@ -22,5 +22,12 @@ assert() {
 
 assert "hello" "hewwo"
 assert "gnu/linux" "gnu/winux"
-assert "love you" "wove you"
 assert "please protect me" "pwease pwotect me"
+
+assert "" ""
+assert "RRRRRRRRRRRR" "WWWWWWWWWWWW"
+assert "LLLLLLLLLLLL" "WWWWWWWWWWWW"
+assert "rr" "ww"
+assert "Rr" "Ww"
+assert "Lr" "Ww"
+assert "RRrrRLRRrrLL" "WWwwWWWWwwWW"
